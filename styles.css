@@ -1,0 +1,62 @@
+body {
+	background: rgb(194, 191, 191);
+}
+
+.Head {
+	background-color: white;
+	width: 600px;
+	height: 50px;
+    margin: auto;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+ }
+
+.box {
+    background-color: white;
+    height: fit-content(500px);
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.title {
+    height: fit-content(50px);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.number {
+    color: grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    padding-top: 2.5px;
+}
+
+.size { 
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover;
+}
+
+.description {
+    height:fit-content(70px);
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
